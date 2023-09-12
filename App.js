@@ -1,20 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import styled from "styled-components/native";
+import { View, Text } from "react-native";
+
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+
+import PatientScreen from "./screens/PatientScreen";
+import HomeScreen from "./screens/HomeScreen";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="HomeScreen"
+          component={HomeScreen}
+          options={{ title: "Клиенты", headerTitleStyle: "fontWeight: 800" }}
+        />
+
+        <Stack.Screen
+          name="PatientScreen"
+          component={PatientScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+/* {{ title: "Пациенты", headerTintColor: '#2A86FF', headerTintSlyle: 'fontFamily : 800', headerStyle: {
+  backgroundColor: '#000'
+} }} */
