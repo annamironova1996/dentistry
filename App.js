@@ -16,7 +16,7 @@ export default function App() {
         <Stack.Screen
           name="HomeScreen"
           component={HomeScreen}
-          options={{ title: "Клиенты", headerTitleStyle: "fontWeight: 800" }}
+          options={{ title: "Клиенты", headerTitleStyle: "fontWeight: 800", headerTintColor: '#2A66FF' }}
         />
 
         <Stack.Screen
@@ -28,6 +28,4 @@ export default function App() {
   );
 }
 
-/* {{ title: "Пациенты", headerTintColor: '#2A86FF', headerTintSlyle: 'fontFamily : 800', headerStyle: {
-  backgroundColor: '#000'
-} }} */
+

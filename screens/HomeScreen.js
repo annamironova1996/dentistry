@@ -15,6 +15,29 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
+          active: true,
+          avatar:
+            "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
+        },
+      },
+      {
+        time: "15:30",
+        diagnosis: "пульпит",
+        user: {
+          fullname: "Петя",
+          phone: "8-900-0990-8876",
+          active: false,
+          avatar:
+            "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
+        },
+      },
+      {
+        time: "15:30",
+        diagnosis: "пульпит",
+        user: {
+          fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -35,6 +58,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -45,6 +69,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -55,6 +80,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -65,6 +91,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -75,6 +102,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -85,6 +113,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -95,6 +124,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -105,6 +135,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -115,6 +146,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: true,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -125,26 +157,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
-          active: false,
-          avatar:
-            "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
-        },
-      },
-      {
-        time: "15:30",
-        diagnosis: "пульпит",
-        user: {
-          fullname: "вася",
-          active: true,
-          avatar:
-            "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
-        },
-      },
-      {
-        time: "15:30",
-        diagnosis: "пульпит",
-        user: {
-          fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -160,6 +173,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -171,6 +185,7 @@ const DATA = [
         user: {
           fullname: "Петя",
           active: false,
+          phone: "8-900-0990-8876",
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
         },
@@ -181,6 +196,7 @@ const DATA = [
         user: {
           fullname: "вася",
           active: false,
+          phone: "8-900-0990-8876",
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
         },
@@ -190,6 +206,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -200,6 +217,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "вася",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -210,6 +228,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8876",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -226,6 +245,7 @@ const DATA = [
         user: {
           active: false,
           fullname: "вася",
+          phone: "8-900-0990-8876",
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
         },
@@ -235,6 +255,7 @@ const DATA = [
         diagnosis: "пульпит",
         user: {
           fullname: "Петя",
+          phone: "8-900-0990-8836",
           active: false,
           avatar:
             "https://glamours.name/uploads/posts/2021-10/1634568803_12-glamours-name-p-krasivie-devushki-bez-makiyazha-devushka-k-13.jpg",
@@ -244,13 +265,18 @@ const DATA = [
   },
 ];
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   return (
     <Container>
       <SectionList
         sections={DATA}
         keyExtractor={(item, index) => index}
-        renderItem={({ item }) => <Appointment {...item} />}
+        renderItem={({ item }) => (
+          <Appointment
+            navigation={navigation}
+            item={item}
+          />
+        )}
         renderSectionHeader={({ section: { title } }) => (
           <SectionTitle>{title}</SectionTitle>
         )}
